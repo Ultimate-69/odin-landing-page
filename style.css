@@ -5,6 +5,9 @@
 body {
     padding: 0px;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .first-section {
@@ -81,20 +84,95 @@ header {
 .second-section {
     display: flex;
     flex-direction: column;
+    padding: 30px;
 }
 
 .boxes {
     display: flex;
+    justify-content: center;
+    gap: 36px;
+    flex-wrap: wrap;
 }
 
-.box {
+.box-appearance {
     width: 200px;
     height: 200px;
-    border: 1px solid rgb(69, 120, 248);
-    display: flex;
-    flex-direction: column;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.box-text {
+    width: 200px;
+    text-align: center;
+    color: #555454;
 }
 
 .random-info {
     text-align: center;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    padding: 50px 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quoter {
+    font-weight: bold;
+}
+
+.fourth-section {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prompt {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    align-items: center;
+    gap: 26px;
+}
+
+.title-prompt {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.subtitle-prompt {
+    margin-top: 0px;
+    color: #d4d4d4;
+    font-size: 13px;
+}
+
+.sign-up-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 5px 20px;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
